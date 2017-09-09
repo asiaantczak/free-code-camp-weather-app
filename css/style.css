@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+button {
+  border-radius: 100%;
+  background-color: #ffff00;
+  border: #ffff00;
+  color: #999900;
+  width: 2em;
+  height: 2em;
+  font-weight: 800;
+  outline: none;
+  text-align: center;
+}
+
+.day {
+  background-color: #2cb6f6;
+}
+
+.night {
+  background-color: #033045;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#date,
+#location, 
+#temperature, 
+#summary, 
+#canvas {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#temperature {
+  font-size: 1.5em;
+}
+
